@@ -24,7 +24,8 @@ main {
 }
 
 section {
-    min-width: 300px;
+    min-width: 320px;
+    max-width: 480px;
     height: 100%;
     padding: 10px;
     background-color: #fff;
@@ -48,3 +49,16 @@ h1 {
     padding: 0 5px;
 }
 
+.card {
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px rgba(0, 0, 0, .1);
+    overflow: auto;
+}
+
+figure img {
+    float: right;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
