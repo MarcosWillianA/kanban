@@ -27,3 +27,4 @@ sections.forEach(secao => {
         e.currentTarget.appendChild(arrastado);
     })
 })
+
