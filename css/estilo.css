@@ -12,7 +12,7 @@ body {
 
 main {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     gap: 5px;
     width: 100%;
@@ -32,3 +32,19 @@ section {
     border-radius: 10px;
     overflow-y: auto;
 }
+
+.titulo-topo {
+    border: 1px solid orangered;
+    overflow: auto;
+}
+
+h1 {
+    float: left;
+}
+
+.add-card {
+    float: right;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+
